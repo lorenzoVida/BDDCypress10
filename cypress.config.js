@@ -4,6 +4,7 @@ const addCucumberPreprocessorPlugin = require("@badeball/cypress-cucumber-prepro
 const createEsbuildPlugin = require ("@badeball/cypress-cucumber-preprocessor/esbuild").createEsbuildPlugin;
 
 module.exports = defineConfig({
+  projectId: 'ruswao',
   reporter: 'reporters/custom.js',
   reporterOptions: {
     configFile: 'reporter-config.json',
